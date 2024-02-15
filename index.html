@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-700">
+    <main class="flex flex-col w-2/3 bg-white rounded-lg overflow-hidden">
+      <section>
+        <header class="bg-gray-200 p-4 border-b border-gray-200">
+          <h1 class="text-gray-600 font-semibold text-xl">
+            The title of the card here
+          </h1>
+        </header>
+        <div
+          class="p-4 flex flex-col sm:flex-row justify-between align-center border-b border-gray-200"
+        >
+          <span
+            class="bg-orange-500 rounded-full py-1 px-2 uppercase text-xs text-gray-100 border font-bold"
+            >Under review</span
+          >
+          <time class="text-sm mt-2 sm:mt-0" datetime="1998-05-14"
+            >May 14, 1998</time
+          >
+        </div>
+        <div class="p-6">
+          <div class="bg-gray-200 p-4 rounded-lg border">
+            <blockquote>
+              <p>Here is short comment about this employee.</p>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+      <footer class="bg-gray-200 p-4">
+        <p class="text-gray-500 uppercase text-xs font-bold mb-4">Employee</p>
+        <figure class="flex items-center">
+          <div
+            class="rounded-full bg-blue-800 w-14 h-14 text-white flex-col font-bold flex items-center justify-center"
+          >
+            VG
+          </div>
+          <figcaption class="ml-5">
+            <p class="font-bold text-lg">Victor Gonzalez</p>
+            <p class="text-sm mt-1 font-semibold text-gray-500">Instructor</p>
+          </figcaption>
+        </figure>
+      </footer>
+    </main>
+  </body>
+</html>
